@@ -1,4 +1,4 @@
-class Log4j(object):
+class Log4J(object):
     def __init__(self, spark):
         root_class = "guru.learningjournal.spark.examples"
         conf = spark.sparkContext.getConf()
