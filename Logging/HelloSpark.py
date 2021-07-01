@@ -8,7 +8,7 @@ if __name__=="__main__":
     .master("local[3]") \
     .getOrCreate()
 
-  logger=Log4j(spark)
+  logger=Log4J(spark)
   logger.info("starting")
   logger.info("stop")
   spark.stop()
